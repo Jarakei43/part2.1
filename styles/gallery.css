@@ -50,3 +50,27 @@
   line-height: 29px;
   color: var(--light-blue);
 }
+
+@media screen and (max-width: 1600px) {
+  #gallery {
+    height: 1600px;
+    justify-content: center;
+  }
+  .card-1,
+  .card-2 {
+    margin-top: 100px;
+  }
+  .card-3 {
+    margin-top: -135px;
+  }
+}
+
+@media screen and (max-width:1300px) {
+  #gallery {
+    height: 1400px;
+  }
+  .card-3 {
+    margin-top: -60px;
+  }
+}
+

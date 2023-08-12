@@ -54,3 +54,19 @@
   line-height: 30px;
   color: #525C60;
 }
+
+@media screen and (max-width:1600px) {
+  .about2-content {
+    left: 810px;
+  }
+}
+
+@media screen and (max-width:1300px) {
+  #about2 {
+    transform: scaleX(-1);
+  }
+  .about2-content {
+    transform: scaleX(-1);
+    left: 530px;
+  }
+}

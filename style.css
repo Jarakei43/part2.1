@@ -6,10 +6,10 @@
 @import url("./styles/shop.css");
 @import url("./styles/recall.css");
 @import url("./styles/offer.css");
-/* @import url("./styles/about2.css"); */
-/* @import url("./styles/gallery.css"); */
-/* @import url("./styles/blog.css"); */
-/* @import url("./styles/footer.css");  */
+@import url("./styles/about2.css");
+@import url("./styles/gallery.css");
+@import url("./styles/blog.css");
+@import url("./styles/footer.css"); 
 
 :root {
   --light-blue: #274c5b;

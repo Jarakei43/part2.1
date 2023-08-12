@@ -127,3 +127,27 @@
   color: #525c60;
   margin-bottom: 16px;
 }
+
+@media screen and (max-width: 1600px) {
+  .first-side {
+    margin-left: 125px;
+  }
+  .second-side {
+    left: 510px;
+  }
+  .footer-copyright {
+    left: 700px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .first-side {
+    margin-left: 35px;
+  }
+  .second-side {
+    left: 420px;
+  }
+  .footer-copyright {
+    left: 610px;
+  }
+}

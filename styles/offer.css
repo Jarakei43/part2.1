@@ -23,8 +23,7 @@
 
 .offer-title button {
   position: absolute;
-  top: 238px;
-  left: 1403.18px;
+  inset: 238px 0px 0px 1403.18px ;
   width: 256px;
   height: 79px;
   border: none;
@@ -110,10 +109,16 @@
 }
 
 @media screen and (max-width:1300px) {
+  #offer {
+    height: 1300px;
+  }
   .offer-cards {
     flex-wrap: wrap;
   }
   .offer-title button {
-    left: 940.18px
+    inset: 112px 0px 0px 940.18px;
+  }
+  .offer-title h5 {
+    padding-top: 75px;
   }
 }

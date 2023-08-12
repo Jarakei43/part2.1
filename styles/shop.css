@@ -1,0 +1,199 @@
+.shop-title h5 {
+  margin: 176px 0px 0px 896.18px;
+}
+
+.shop-title h2 {
+  margin: 9px 0px 0px 812px;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 59px;
+  color: var(--light-blue);
+}
+
+.shop-cards {
+  margin: 40px 259.64px 0px 260px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.shop-cards div {
+  width: 335.09px;
+  height: 483px;
+  border-radius: 30px;
+}
+
+.broccolli,
+.bananas,
+.pistachios,
+.tomatos,
+.peas,
+.nuts,
+.bread,
+.eggs {
+  position: relative;
+  background: #f9f8f8;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.broccolli img,
+.bananas img,
+.pistachios img,
+.tomatos img,
+.peas img,
+.nuts img,
+.bread img,
+.eggs img {
+  position: absolute;
+  mix-blend-mode: multiply;
+}
+
+.broccolli div,
+.pistachios div,
+.bananas div,
+.tomatos div,
+.peas div,
+.nuts div,
+.eggs div,
+.bread div {
+  height: 31px;
+  position: relative;
+  margin: 29px 0px 0px 30px;
+  border-radius: 8px;
+  background: var(--light-blue);
+}
+
+.class span {
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #fff;
+  top: 5px;
+  left: 12px;
+}
+
+.broccolli div,
+.tomatos div {
+  width: 96px;
+}
+
+.bananas div,
+.eggs div,
+.bread div {
+  width: 64px;
+}
+
+.pistachios div,
+.peas div {
+  width: 73px;
+}
+
+.nuts div {
+  width: 59px;
+}
+
+.cards-h3 {
+  position: absolute;
+  top: 399px;
+  left: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  color: var(--light-blue);
+}
+
+.cards-line {
+  position: absolute;
+  top: 435px;
+  left: 30px;
+  width: 274.99px;
+  height: 1px;
+  background: #dedddd;
+}
+
+.old-price {
+  position: absolute;
+  top: 444px;
+  left: 31px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  color: var(--main-gray);
+  text-decoration: line-through;
+}
+
+.new-price {
+  position: absolute;
+  top: 441px;
+  left: 87px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  color: var(--light-blue);
+}
+
+.shop-stars {
+  position: absolute;
+  top: 444px;
+  left: 225px;
+}
+
+.shop-button {
+  margin: 122px 0px 200px 850.18px;
+  width: 220px;
+  height: 79px;
+  border: none;
+  border-radius: 16px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  color: #fff;
+  background: var(--light-blue);
+}
+
+.shop-button img {
+  position: relative;
+  top: 2px;
+  left: 1px;
+}
+
+@media screen and (max-width: 1600px) {
+  .shop-title h5 {
+    margin-top: 141px;
+  }
+  
+  .shop-title h5,
+  .shop-title h2 {
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .shop-cards {
+    margin-right: 0px;
+    margin-left: 0px;
+    justify-content: center;
+  }
+
+  .shop-btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  .shop-button {
+    margin: 87px 0px 165px 0px;
+  }
+}
+
+@media screen and (max-width:1300px) {
+  .shop-title h5 {
+    margin-top: 86px;
+  }
+  .shop-button {
+    margin: 52px 0px 100px 0px;
+  }
+}

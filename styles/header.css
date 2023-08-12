@@ -1,0 +1,150 @@
+header {
+  max-width: 100%;
+  margin-bottom: 69px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-top: 74.14px;
+  margin-left: 159px;
+  display: flex;
+  gap: 8.21px;
+}
+
+.logo span {
+  margin-top: 5.36px;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 45px;
+  color: var(--light-blue);
+}
+
+.header-nav ul {
+  margin-top: 90.5px;
+  display: flex;
+  gap: 35px;
+}
+
+.header-nav ul li a {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  color: var(--light-blue);
+}
+
+.header-nav ul li:nth-child(3) {
+  display: flex;
+  gap: 5px;
+}
+
+.header-buttons {
+  margin-top: 69px;
+  margin-right: 162px;
+  display: flex;
+  gap: 18px;
+}
+
+.search-button {
+  position: relative;
+  width: 376px;
+  height: 66px;
+  border-radius: 36px;
+  background: #fafafa;
+}
+
+.search-icon {
+  position: absolute;
+  top: 5px;
+  left: 314px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--main-green);
+}
+
+.search-icon img {
+  margin: 17px 0px 0px 19px;
+}
+
+.cart-button {
+  position: relative;
+  width: 159px;
+  height: 66px;
+  border: 1px solid #e0e0e0;
+  border-radius: 33px;
+  display: flex;
+}
+
+.cart-icon {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  background: var(--light-blue);
+  top: 5px;
+  left: 6px;
+  border-radius: 50%;
+}
+
+.cart-icon img {
+  margin: 17px 0px 0px 15px;
+}
+
+.cart-button span {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  color: var(--light-blue);
+  top: 21px;
+  left: 74px;
+}
+
+.cart-button span:last-child {
+  display: none;
+}
+
+@media screen and (max-width:1600px) {
+  .logo {
+    margin-left: 125px;
+  }
+  .header-nav ul {
+    margin: 90.5px 25px 0px 25px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .cart-button span {
+    display: none;
+  }
+
+  .cart-button span:last-child {
+    z-index: 2;
+    position: absolute;
+    display: block;
+    inset: 4px 0px 0px 40px;
+    color: #5b678e;
+  }
+
+  .cart-button {
+    width: 70px;
+  }
+  .cart-icon {
+    left: 4.21;
+  }
+
+  .search-button {
+    width: 160px;
+  }
+
+  .search-icon {
+    left: 97.79px;
+  }
+
+  .logo {
+    margin-left: 50px;
+  }
+  .header-nav ul {
+    margin: 90.5px 50px 0px 60px;
+  }
+}

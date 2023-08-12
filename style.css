@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;700;800;900&family=Roboto:wght@100;300;400;500;700;800;900&family=Yellowtail&display=swap");
+@import url("./styles/header.css");
+@import url("./styles/hero.css");
+@import url("./styles/hero2.css");
+@import url("./styles/about.css");
+@import url("./styles/shop.css");
+@import url("./styles/recall.css");
+@import url("./styles/offer.css");
+/* @import url("./styles/about2.css"); */
+/* @import url("./styles/gallery.css"); */
+/* @import url("./styles/blog.css"); */
+/* @import url("./styles/footer.css");  */
+
+:root {
+  --light-blue: #274c5b;
+  --main-green: #7eb693;
+  --sec-green: #68a47f;
+  --main-gray: #b8b8b8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-h5 {
+  font-family: "Yellowtail", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 49px;
+  color: var(--main-green);
+}

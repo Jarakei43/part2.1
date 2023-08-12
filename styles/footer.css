@@ -1,0 +1,129 @@
+#footer {
+  position: relative;
+  display: flex;
+}
+
+.first-side {
+  position: relative;
+  margin-left: 311px;
+}
+
+.first-side h2 {
+  padding-left: 136px;
+}
+
+.first-side h2,
+.third-side h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  color: var(--light-blue);
+}
+
+.first-side ul li h4 {
+  margin-top: 31px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: right;
+  color: #525c60;
+}
+
+.first-side ul li span {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: right;
+  color: #525c60;
+}
+
+.line2,
+.line3 {
+  height: 336px;
+  border-left: 1px solid #d4d4d4;
+}
+
+.line2 {
+  margin-left: 51px;
+}
+
+.line3 {
+  margin-left: 626px;
+}
+
+.second-side {
+  position: absolute;
+  left: 688px;
+}
+
+.footer-logo {
+  margin: 0px;
+  padding-left: 170.1px;
+}
+
+.second-side p {
+  margin: 21px 0px 0px 22px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #525c60;
+}
+
+.second-side img:last-child {
+  padding: 49px 0px 0px 129px;
+}
+
+.third-side {
+  padding-left: 50px;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.third-side-spans {
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 49px;
+  color: #525c60;
+}
+
+.line4 {
+  position: absolute;
+  width: 100%;
+  border-top: 1px solid #d4d4d4;
+  top: 445px;
+}
+
+.footer-copyright {
+  position: absolute;
+  display: flex;
+  gap: 5px;
+  top: 462px;
+  left: 867px;
+}
+
+.footer-copyright span:first-child {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #525c60;
+}
+
+.footer-copyright span:last-child {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #525c60;
+  margin-bottom: 16px;
+}

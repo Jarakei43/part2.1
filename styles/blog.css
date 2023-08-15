@@ -196,7 +196,7 @@
   }
 }
 
-@media screen and (max-width:1300px) {
+@media screen and (max-width: 1300px) {
   .blog-cards {
     flex-wrap: wrap;
     justify-content: center;
@@ -207,7 +207,7 @@
   }
   .blog-newsletter {
     margin-left: 0px;
-    width: 1300px;
+    max-width: 100%;
     background-image: url("../images/Backgroundblog.png");
   }
   .blog-newsletter input {
@@ -215,5 +215,71 @@
   }
   .blog-newsletter button {
     left: 955px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .blog-title button {
+    left: 735px;
+  }
+  .blog-newsletter {
+    height: 436px;
+    background-image: url("../images/Backgroundblog2.png");
+  }
+  .blog-newsletter h1 {
+    padding: 50px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .blog-newsletter input {
+    inset: 200px 0px 0px 345px;
+  }
+  .blog-newsletter button {
+    inset: 315.5px 0px 0px 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blog-title {
+    margin-top: 25px;
+  }
+  .blog-title button {
+    inset: 200px 0px 0px 0px;
+  }
+  .blog-cards {
+    margin-top: 145px;
+  }
+  .blog-newsletter {
+    border-radius: 24px;
+  }
+  .blog-newsletter input {
+    left: 220px;
+  }
+  .blog-newsletter button {
+    left: 275px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .blog-title button {
+    top: 300px;
+  }
+  .blog-cards {
+    margin-left: 0px;
+  }
+  .blog-card1,
+  .blog-card2 {
+    border-radius: 24px;
+    max-width: 100%;
+  }
+  .sub-card {
+    width: 417px;
+    height: 335px;
+  }
+  .blog-newsletter input {
+    left: 75px;
+  }
+  .blog-newsletter button {
+    left: 130px;
   }
 }

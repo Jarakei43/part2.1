@@ -90,3 +90,9 @@
     padding-left: 58px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .about-content {
+    padding-left: 25px;
+  }
+}

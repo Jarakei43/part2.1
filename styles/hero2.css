@@ -57,3 +57,9 @@
     flex-wrap: wrap;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .hero2-banners div {
+    border-radius: 24px;
+  }
+}

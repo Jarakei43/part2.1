@@ -96,7 +96,7 @@
 
 @media screen and (max-width: 1600px) {
   .offer-title button {
-    left: 1290.18px;
+    left: 1200.18px;
   }
   .offer-cards {
     margin: 50px 0px 0px 155px;
@@ -120,5 +120,35 @@
   }
   .offer-title h5 {
     padding-top: 75px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .offer-title {
+    padding-left: 45px;
+  }
+  .offer-title button {
+    left: 725.18px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .offer-title h5 {
+    padding-top: 25px;
+  }
+  .offer-title button {
+    inset: 150px 0px 0px 45px;
+  }
+  .offer-cards {
+    margin: 125px  0px 0px 50px ;
+  }
+}
+
+@media screen and (max-width:480px) {
+  #offer {
+    height: 2350px;
+  }
+  .offer-title button {
+    top: 200px;
   }
 }

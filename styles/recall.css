@@ -217,3 +217,81 @@
     margin-left: 420px;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  #recall {
+    background-position: 50%;
+  }
+  .recall-title {
+    padding-left: 135px;
+  }
+  .recall-stars {
+    left: 460.86px;
+  }
+  .recall-title p {
+    margin-right: 107px;
+  }
+  .recall-nav {
+    left: 507.5px;
+  }
+  .line1 {
+    margin-left: 200px;
+  }
+  .recall-info {
+    margin-left: 280px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .recall-title {
+    padding: 65px 0px 0px 0px;
+  }
+  .recall-stars {
+    inset: 378px 0px 0px 325.86px;
+  }
+  .recall-title p {
+    margin-right: -12px;
+  }
+  .recall-nav {
+    inset: 580.5px 0px 0px 372.5px;
+  }
+  .line1 {
+    margin: 31px 0px 0px 75px;
+  }
+  .recall-info {
+    margin: 85px 0px 0px 145px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .recall-title h5,
+  .recall-title h2 {
+    margin-left: 25px;
+  }
+  .recall-avatar {
+    margin: 20px 0px 0px 210.5px;
+  }
+  .recall-stars {
+    left: 210.5px;
+  }
+  .recall-title p {
+    margin: 42.75px 4px 0px 0px;
+  }
+  .recall-title h6 {
+    margin-left: 203px;
+  }
+  .recall-title span {
+    margin-left: 230.3px;
+  }
+  .recall-nav {
+    inset: 620.5px 0px 0px 248.5px;
+  }
+  .line1 {
+    max-width: 100%;
+    margin-left: 0px;
+  }
+  .recall-info {
+    gap: 42px;
+    margin-left: 8px;
+  }
+}
